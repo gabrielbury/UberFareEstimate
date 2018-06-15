@@ -1,0 +1,58 @@
+﻿@page
+@model BitHead.Uber.RazorPages.Pages.HomeModel
+@{
+    ViewData["Title"] = "Home";
+}
+<h2>Home</h2>
+<div class="row">
+    <div class="col-lg-4">
+        <form method="post">
+            <div class="form-group">
+                <label>Origem</label>
+                <input class="form-control" type="text" asp-for="UberAddress.From" />
+            </div>
+            <div class="form-group">
+                <label>Destino</label>
+                <input type="text" class="form-control" asp-for="UberAddress.To" />
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary">Buscar</button>
+            </div>
+        </form>
+        @{ if (Model.FareEstimate.Any())
+            {
+                <div class="row">
+                    <div class="col-lg-12">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>Categoria</th>
+                                    <th>Estimativa</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model.FareEstimate)
+                                {
+                                <tr>
+                                    <td>@item.Title</td>
+                                    <td>@item.PriceRange</td>
+                                </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            }
+        }
+    </div>
+    @{ if (!string.IsNullOrWhiteSpace(Model.UrlParameters))
+        {
+        <div class="col-lg-8 maps">
+            <iframe width="600" height="450" frameborder="0" style="border:0" 
+                src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyCTAye1M7W6wnebdy-qsZkdJiqxBs8Quws&@Model.UrlParameters" 
+                allowfullscreen>
+            </iframe>
+        </div>
+        }
+    }
+</div>

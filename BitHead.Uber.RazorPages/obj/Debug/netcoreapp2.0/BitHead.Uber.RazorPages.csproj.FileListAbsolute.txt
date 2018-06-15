@@ -1,0 +1,11 @@
+C:\Projetos\BitHead\uber\BitHead.Uber\BitHead.Uber.RazorPages\bin\Debug\netcoreapp2.0\BitHead.Uber.RazorPages.deps.json
+C:\Projetos\BitHead\uber\BitHead.Uber\BitHead.Uber.RazorPages\bin\Debug\netcoreapp2.0\BitHead.Uber.RazorPages.runtimeconfig.json
+C:\Projetos\BitHead\uber\BitHead.Uber\BitHead.Uber.RazorPages\bin\Debug\netcoreapp2.0\BitHead.Uber.RazorPages.runtimeconfig.dev.json
+C:\Projetos\BitHead\uber\BitHead.Uber\BitHead.Uber.RazorPages\bin\Debug\netcoreapp2.0\BitHead.Uber.RazorPages.dll
+C:\Projetos\BitHead\uber\BitHead.Uber\BitHead.Uber.RazorPages\obj\Debug\netcoreapp2.0\BitHead.Uber.RazorPages.csprojResolveAssemblyReference.cache
+C:\Projetos\BitHead\uber\BitHead.Uber\BitHead.Uber.RazorPages\obj\Debug\netcoreapp2.0\BitHead.Uber.RazorPages.csproj.CoreCompileInputs.cache
+C:\Projetos\BitHead\uber\BitHead.Uber\BitHead.Uber.RazorPages\obj\Debug\netcoreapp2.0\BitHead.Uber.RazorPages.AssemblyInfoInputs.cache
+C:\Projetos\BitHead\uber\BitHead.Uber\BitHead.Uber.RazorPages\obj\Debug\netcoreapp2.0\BitHead.Uber.RazorPages.AssemblyInfo.cs
+C:\Projetos\BitHead\uber\BitHead.Uber\BitHead.Uber.RazorPages\bin\Debug\netcoreapp2.0\BitHead.Uber.RazorPages.pdb
+C:\Projetos\BitHead\uber\BitHead.Uber\BitHead.Uber.RazorPages\obj\Debug\netcoreapp2.0\BitHead.Uber.RazorPages.dll
+C:\Projetos\BitHead\uber\BitHead.Uber\BitHead.Uber.RazorPages\obj\Debug\netcoreapp2.0\BitHead.Uber.RazorPages.pdb
